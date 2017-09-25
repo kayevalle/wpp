@@ -10,7 +10,7 @@
     <link rel="icon" href="https://getbootstrap.com/docs/3.3/favicon.ico">
 
     <title>West Palawan Premiere</title>
-
+    <link rel="icon" href="images/wpp3.png">
     <link rel="stylesheet" href="css/navbar.css">
 
     <!-- Bootstrap core CSS -->
@@ -36,6 +36,9 @@
     <link href="css/carousel.css" rel="stylesheet">
     <link href="css/css.css" rel="stylesheet">
 
+    <style type="text/css">
+
+    </style>
 
   </head>
 <!-- NAVBAR
@@ -54,12 +57,12 @@
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                 </button>
-                <div class="logo">
-                <a class="navbar-brand" href="#">
-                    <img src="images/wpp3.png" style="display:inline-block;vertical-align:middle;" width="50">
-                    <img src="images/wpptext2.png" style="display:inline-block;vertical-align:middle;" width="100">
-                </a>
+                <a class="navbar-brand" href="#" style="padding-top:4px;padding-right:0px;">
+                <div class="">
+                    <img src="images/wpp4.png" width="150">
+                    <!-- <img src="images/wpptext2.png" width="100"> -->
                 </div>
+                </a>
               </div>
               <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
@@ -103,6 +106,7 @@
     ================================================== -->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
+      
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class=""></li>
         <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
@@ -144,6 +148,11 @@
       </a>
     </div><!-- /.carousel -->
 
+    <div class="overlay">
+      <video width="100%" controls autoplay>
+        <source src="videos/small.mp4" type="video/mp4">
+      </video>
+    </div>
 
     <!-- Marketing messaging and featurettes
     ================================================== -->
@@ -207,7 +216,18 @@
 
       </div><!-- /.row -->
 
+      </div><!-- /.container -->
 
+      <div class="container-fluid" style="overflow: hidden">
+        <div class="row">
+          <div class="col-sm-6 col-md-3 panorama-container">
+            
+            <iframe src="https://360player.io/p/rjhRh7/" frameborder="0"  data-token="rjhRh7"></iframe>
+          </div>
+        </div>
+      </div>  
+
+    <div class="container">
       <!-- FOOTER -->
       <footer>
         <!-- <p class="pull-right"><a href="#">Back to top</a></p>
@@ -235,8 +255,8 @@
       </footer>
       
       <hr class="featurette-divider">
-
-    </div><!-- /.container -->
+  </div>
+    
 
 
     <!-- Bootstrap core JavaScript
